@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Data (MIMIC-derived data should not be committed)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts and generated outputs
+models/*
+outputs/figures/*
+outputs/results/*
+!models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
